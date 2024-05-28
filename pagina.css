@@ -112,6 +112,38 @@ h1{
 #button {
   display: none;
 }
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos del botón "Volver arriba" */
+.top-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 999;
+}
+
+.top-link:hover {
+    background-color: #ffd700; /* Cambia el color al pasar el ratón */
+}
 
 @media screen and (max-width: 600px) {
   #menu {
